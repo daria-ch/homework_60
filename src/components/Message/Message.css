@@ -1,0 +1,16 @@
+.alert {
+    display: flex;
+    align-items: center;
+}
+
+.datetime {
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.nickname {
+    font-weight: bold;
+    margin: 0 10px;
+    color: #000;
+}
