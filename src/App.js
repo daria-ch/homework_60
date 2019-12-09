@@ -88,7 +88,7 @@ class App extends Component {
             .catch(error => console.error(error));
         this.getChat()
             .catch(error => console.error(error));
-        this.interval = setInterval(() => this.getChat(), 5000);
+        this.interval = setInterval(() => this.getChat(), 2000);
     };
 
 
